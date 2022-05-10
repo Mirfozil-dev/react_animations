@@ -1,0 +1,198 @@
+.App {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    font-family: Montserrat, sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.bg {
+    position: absolute;
+    right: 0;
+    height: 100vh;
+}
+
+.hide {
+    height: 100vh;
+    position: absolute;
+    left: 0;
+    width: 68%;
+    background: #fff;
+}
+
+.mosque {
+    bottom: 150px;
+    right: 50px;
+    position: absolute;
+}
+
+.hedge {
+    position: absolute;
+    right: 100px;
+    bottom: 160px;
+}
+
+.p_1 {
+    position: absolute;
+    font-size: 1.7rem;
+    font-weight: bold;
+    top: 70px;
+    left: 50px;
+}
+
+.p_2 {
+    position: absolute;
+    font-size: 1.7rem;
+    top: 170px;
+    left: 50px;
+}
+
+.p_2 span, .p_4 span {
+    font-weight: bold;
+    color: #c95000;
+}
+
+.p_3 {
+    position: absolute;
+    font-size: 1.7rem;
+    top: 300px;
+    left: 50px;
+}
+
+.p_4 {
+    position: absolute;
+    font-size: 1.7rem;
+    top: 370px;
+    left: 50px;
+}
+
+.p_5 {
+    position: absolute;
+    font-size: 1.7rem;
+    top: 530px;
+    left: 50px;
+    font-weight: bold;
+}
+
+.enter_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    border-radius: 50px;
+    outline: none;
+    font-weight: bold;
+    color: #c95000;
+    position: absolute;
+    bottom: 50px;
+    left: 300px;
+    width: 130px;
+    font-size: 1.4rem;
+    height: 50px;
+    border: solid #c06200;
+}
+
+.enter_btn span {
+    font-size: 3rem;
+    font-weight: lighter;
+    margin-left: 10px;
+}
+
+@media screen and (max-width: 1300px) {
+    .p_1, .p_2, .p_3, .p_4, .p_5 {
+        font-size: 1.6rem;
+        left: 40px;
+    }
+
+    .enter_btn {
+        left: 200px;
+    }
+}
+
+@media (max-height: 750px) {
+    .p_1, .p_2, .p_3, .p_4, .p_5 {
+        font-size: 1.6rem;
+        left: 40px;
+    }
+
+    .enter_btn {
+        bottom: 30px;
+    }
+}
+
+@media (max-height: 700px) {
+
+    .p_1 {
+        top: 50px;
+    }
+
+    .p_2 {
+        top: 150px;
+    }
+
+    .p_3 {
+        top: 270px;
+    }
+
+    .p_4 {
+        top: 350px;
+    }
+
+    .p_5 {
+        top: 500px;
+    }
+
+    .enter_btn {
+        bottom: 30px;
+    }
+
+    .mosque {
+        bottom: 120px;
+    }
+
+    .hedge {
+        bottom: 130px;
+    }
+}
+
+@media (max-height: 650px) {
+    .mosque {
+        bottom: 100px;
+    }
+
+    .hedge {
+        bottom: 110px;
+    }
+
+    .p_1, .p_2, .p_3, .p_4, .p_5 {
+        font-size: 1.55rem;
+        left: 40px;
+    }
+
+    .p_1 {
+        top: 30px;
+    }
+
+    .p_2 {
+        top: 100px;
+    }
+
+    .p_3 {
+        top: 200px;
+    }
+
+    .p_4 {
+        top: 300px;
+    }
+
+    .p_5 {
+        top: 430px;
+    }
+
+    .enter_btn {
+        bottom: 20px;
+    }
+}

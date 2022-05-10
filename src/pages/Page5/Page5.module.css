@@ -1,0 +1,253 @@
+.App {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    font-family: Montserrat, sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.sky {
+    position: absolute;
+    width: 74.2vw;
+    height: 100vh;
+}
+
+.moon {
+    position: absolute;
+    top: 100px;
+    left: 370px;
+}
+
+.cloud_left {
+    top: 120px;
+    position: absolute;
+}
+
+.cloud_center {
+    position: absolute;
+    bottom: 250px;
+    left: 500px;
+}
+
+.bottom {
+    position: absolute;
+    bottom: 0;
+    width: 53.2vw;
+    left: 20.6vw;
+}
+
+.cloud_bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.tower {
+    position: absolute;
+    bottom: 0;
+    left: 195px;
+}
+
+.mosque {
+    position: absolute;
+    bottom: 0;
+}
+
+.light1 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.light2 {
+    position: absolute;
+    bottom: 0;
+    left: 100px;
+}
+
+.light3 {
+    position: absolute;
+    bottom: 0;
+    left: 600px;
+}
+
+.p_1 {
+    position: absolute;
+    right: 300px;
+    font-size: 1.65rem;
+    text-shadow: 0px 0px 1px #000;
+}
+
+.p_2 {
+    position: absolute;
+    top: 130px;
+    right: 300px;
+    font-size: 1.65rem;
+}
+
+.p_3 {
+    position: absolute;
+    top: 230px;
+    right: 200px;
+    font-size: 1.65rem;
+}
+
+.p_3 span {
+    font-weight: bold;
+    color: darkcyan;
+}
+
+.p_4 {
+    position: absolute;
+    top: 350px;
+    right: 100px;
+    font-size: 1.65rem;
+}
+
+.p_4 span {
+    font-weight: bold;
+    color: orangered;
+}
+
+.p_5 {
+    position: absolute;
+    font-size: 1.65rem;
+    top: 470px;
+    right: 50px;
+    font-weight: bold;
+}
+
+.enter_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    border-radius: 50px;
+    outline: none;
+    font-weight: bold;
+    position: absolute;
+    width: 130px;
+    font-size: 1.4rem;
+    height: 50px;
+    color: darkcyan;
+    border: solid darkcyan;
+    bottom: 100px;
+    right: 70px;
+}
+
+.enter_btn span {
+    font-size: 3rem;
+    font-weight: 400;
+    margin-left: 10px;
+}
+
+@media screen and (max-width: 1400px) {
+    .p_1, .p_2, .p_3, .p_4 {
+        font-size: 1.55rem;
+    }
+
+    .cloud_center {
+        left: 450px;
+    }
+}
+
+@media screen and (max-width: 1350px) {
+    .cloud_center {
+        left: 400px;
+    }
+
+    .moon {
+        left: 350px;
+        width: 8vw;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .p_1 {
+        right: 250px;
+    }
+
+    .p_2 {
+        right: 250px;
+    }
+
+    .moon {
+        left: 330px;
+        width: 7.5vw;
+    }
+
+    .mosque {
+        width: 25vw;
+    }
+
+    .tower {
+        width: 12vw;
+    }
+
+    .cloud_bottom {
+        width: 56vw;
+    }
+
+    .cloud_center {
+        left: 380px;
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    .cloud_center {
+        left: 370px;
+    }
+
+    .moon {
+        left: 300px;
+    }
+}
+
+@media screen and (max-height: 700px) {
+    .p_1, .p_2, .p_3, .p_4, .p_5 {
+        font-size: 1.45rem;
+    }
+
+    .p_5 {
+        top: 450px;
+    }
+
+    .enter_btn {
+        bottom: 30px;
+    }
+}
+
+@media (min-width: 1450px) {
+    .light1 {
+        height: 70vh;
+    }
+
+    .light2 {
+        height: 70vh;
+    }
+
+    .light3 {
+        height: 70vh;
+    }
+}
+
+@media (min-width: 1650px) {
+    .light1 {
+        height: 80vh;
+        bottom: 80px;
+        left: 100px;
+    }
+
+    .light2 {
+        height: 80vh;
+        bottom: -20px;
+    }
+
+    .light3 {
+        height: 75vh;
+        bottom: -30px;
+    }
+}

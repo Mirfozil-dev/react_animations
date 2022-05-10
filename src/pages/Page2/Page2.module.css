@@ -1,0 +1,163 @@
+.App {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    font-family: Montserrat, sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.clouds {
+    position: absolute;
+    left: -140px;
+    top: -50px;
+    z-index: 0;
+    height: 120vh;
+}
+
+.right_angle {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 250px;
+}
+
+.woman {
+    position: absolute;
+    height: 100vh;
+    bottom: -70px;
+    left: 100px;
+    z-index: 1;
+}
+
+.flowers {
+    position: absolute;
+    height: 50vh;
+    bottom: -20px;
+    left: -175px;
+}
+
+.p_1 {
+    position: absolute;
+    top: 50px;
+    right: 400px;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.p_2 {
+    position: absolute;
+    top: 150px;
+    right: 260px;
+    font-size: 1.5rem;
+}
+
+.p_2 span {
+    color: lightpink;
+    font-weight: bold;
+}
+
+.p_3 {
+    position: absolute;
+    top: 400px;
+    right: 50px;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.enter_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    border-radius: 50px;
+    outline: none;
+    font-weight: bold;
+    color: lightpink;
+    position: absolute;
+    right: 70px;
+    bottom: 70px;
+    width: 180px;
+    font-size: 1.5rem;
+    height: 50px;
+    border: solid lightpink;
+}
+
+.enter_btn span {
+    font-size: 3rem;
+    font-weight: 400;
+    margin-left: 10px;
+}
+
+@media screen and (max-width: 1400px) {
+
+    .right_angle {
+        height: 230px;
+    }
+
+    .flowers {
+        height: 49vh;
+    }
+
+    .p_1 {
+        right: 350px;
+        font-size: 1.4rem;
+    }
+
+    .p_2 {
+        font-size: 1.4rem;
+        right: 200px;
+    }
+
+    .p_3 {
+        font-size: 1.4rem;
+        right: 30px;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .p_1 {
+        right: 250px;
+    }
+
+    .p_2 {
+        right: 100px;
+    }
+
+    .p_3 {
+        right: 10px;
+        font-size: 1.3rem;
+    }
+
+    .enter_btn {
+        right: 30px;
+    }
+}
+
+@media (max-height: 700px) {
+    .flowers {
+        left: -155px;
+    }
+}
+
+@media (max-height: 650px) {
+    .clouds {
+        left: -100px !important;
+    }
+
+    .enter_btn {
+        bottom: 30px;
+    }
+
+    .flowers {
+        left: -135px;
+    }
+}
+
+@media (max-height: 600px) {
+    .flowers {
+        left: -120px;
+    }
+}

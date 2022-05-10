@@ -1,0 +1,13 @@
+.control {
+    width: 80%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+}
+
+.control a {
+    text-decoration: none;
+    color: black;
+}
